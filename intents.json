@@ -1,0 +1,77 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "hi",
+        "hello",
+        "hey there",
+        "is anyone there",
+        "good day",
+        "greetings"
+      ],
+      "responses": [
+        "Hello! Welcome to our closed-domain support assistant. How can I help you today?",
+        "Hi there! What can I assist you with today?",
+        "Greetings! Please let me know how I can be of service."
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "bye",
+        "goodbye",
+        "see you later",
+        "i am leaving",
+        "exit",
+        "quit"
+      ],
+      "responses": [
+        "Goodbye! Feel free to reach out if you need anything else.",
+        "Thank you for stopping by. Have a wonderful day!",
+        "Bye! System session closed."
+      ]
+    },
+    {
+      "tag": "capabilities",
+      "patterns": [
+        "what can you do",
+        "how can you help me",
+        "what is your purpose",
+        "what tasks do you perform",
+        "help me"
+      ],
+      "responses": [
+        "I am configured to answer specific inquiries about our technical support pipeline, system hours, and general product capabilities.",
+        "As a closed-domain chatbot, I can guide you through our system setup instructions or direct you to human agents."
+      ]
+    },
+    {
+      "tag": "system_hours",
+      "patterns": [
+        "when are you open",
+        "what are your hours",
+        "operating hours",
+        "are you available on weekends"
+      ],
+      "responses": [
+        "Our system and human support staff are available Monday through Friday from 8:00 AM to 6:00 PM EST.",
+        "We operate on weekdays between 8:00 AM and 6:00 PM EST. The automated chat module remains online 24/7."
+      ]
+    },
+    {
+      "tag": "escalation",
+      "patterns": [
+        "i want to talk to a human",
+        "speak to a person",
+        "customer support phone number",
+        "human agent",
+        "transfer me"
+      ],
+      "responses": [
+        "You can reach a live human specialist during operating hours by emailing support@domain.com or calling 1-800-555-0199.",
+        "To open a priority human review ticket, please submit your query directly to support@domain.com."
+      ]
+    }
+  ]
+}
